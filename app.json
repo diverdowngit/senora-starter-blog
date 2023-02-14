@@ -1,20 +1,12 @@
 {
-  "name": "Contentful Gatsby Starter",
-  "description": "Gatsby starter for a Contentful project.",
+  "name": "SV Sea Senora",
+  "description": "WebPage for SV Sea Senora. Sailing,Travel,YouTube And Blog Site.A Must To Check Out.",
   "keywords": [
-    "contentful",
-    "gatsby",
-    "static",
-    "ssg"
+    "Sailing",
+    "sailing family"
+    
   ],
-  "repository": "https://github.com/contentful-userland/gatsby-contentful-starter",
-  "success_url": "/",
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-static"
-    }
-  ]
+  "repository": "https:",
+  "success_url": "/"
+  
 }
