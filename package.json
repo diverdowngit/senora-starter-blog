@@ -21,7 +21,8 @@
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1",
-    "reading-time": "^2.0.0-1"
+    "reading-time": "^2.0.0-1",
+    "webpack-filter-warnings-plugin": "^1.2.1"
   },
   "devDependencies": {
     "contentful-import": "^8.3.2",

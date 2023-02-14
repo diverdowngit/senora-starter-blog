@@ -28,7 +28,7 @@
     font-family: 'Luminari', sans-serif;
                                                 
     /* text-shadow: .1em .1em 0 rgb(22, 50, 65); */
-    letter-spacing: 2px;
+    letter-spacing: .5rem;
     text-align: center;
    
 }
@@ -36,7 +36,7 @@
 .headingtext{
   font-family: 'Luminari', sans-serif;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 3rem;
 }
 .subheading{
   font-weight: normal;
@@ -49,7 +49,7 @@
   right: 16px;
   transform: translate(-50%, -50%);
     color:white;
-    font-size: 2rem;
+    font-size: 3rem;
     visibility: hidden;
 }
 
@@ -58,7 +58,7 @@
 }
 @media (max-width: 600px){
   .centertext{
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .headingtext{
     font-size: 2rem;
