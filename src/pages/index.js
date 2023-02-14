@@ -5,13 +5,13 @@ import '../styles/layout.module.css'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Img from '../images/heroimage.jpg'
-import Hero from '../components/hero'
+import Header from '../components/header'
 import Ewv from "../pages/Ewv"
 const IndexPage = () => {
   return (
     <Layout>
   
-     {/* <Hero img={Img} centerText="Welcome to SV Sea Senora " location="WorldWide."font-family=" 'Luminari', sans-serif;"/> */}
+     <Header img={Img} centerText="Welcome to SV Sea Senora " location="WorldWide."font-family=" 'Luminari', sans-serif;"/> 
       
        <Ewv />
     
