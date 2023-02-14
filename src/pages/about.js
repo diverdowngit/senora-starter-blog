@@ -1,6 +1,6 @@
 import * as React from "react"
-import Img from '../images/aboutTravel1.jpg'
-import Hero from '../components/Hero'
+// import Img from '../images/aboutTravel1.jpg'
+// import Hero from '../components/Hero'
 import Layout from '../components/layout'
 import {container,adminTravel,adminText,imgsiz,alignImages,alignImages2} from '../styles/About.module.css'
 import Youtube from '../images/youtube-logo.png'
@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const AboutPage = () => {
   return (
     <Layout>
-      <Hero img={Img}fontSize="1rem"centerText="Our Passion For Travel Is The Foundation Of Sv Sea Senora." subheading="Our Traveles  Take You With Us Off-the-beaten-path To Hidden Gems." location="About Us Page "/>
+      {/* <Hero img={Img}fontSize="1rem"centerText="Our Passion For Travel Is The Foundation Of Sv Sea Senora." subheading="Our Traveles  Take You With Us Off-the-beaten-path To Hidden Gems." location="About Us Page "/> */}
    <div className={container}>
         <div> <h2 className={adminTravel}>About Us</h2>
         <p className={adminText}>Hello We Are Fred, Sandra and Maya. We wanted to share our experiences with others all across the world, so we started Sv Sea Senora. to increase the rewards of well-known sites and the accessibility of off-the-beaten-path locations.</p>

@@ -1,8 +1,8 @@
 import * as React from "react"
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import Img from '../images/sailboat-2133663_1920.jpg'
+// import Img from '../images/sailboat-2133663_1920.jpg'
 import Patron from '../images/patreon-icon.png'
 
 import {container,bookingwrapper,wrapper,staywrapper,aboutCards,} from '../styles/Keepafloat.module.css';
@@ -15,7 +15,7 @@ import {container,bookingwrapper,wrapper,staywrapper,aboutCards,} from '../style
 
   return (
     <Layout>
-        <Hero img={Img} centerText="Thanks for Keeping us Afloat and off the Rocks " location=""/>
+        {/* <Hero img={Img} centerText="Thanks for Keeping us Afloat and off the Rocks " location=""/> */}
     <div className={container}>
     <div className={wrapper}>  <img src={Patron}  href="https://www.patreon.com/user?u=84347902"alt='patron' /> 
     
