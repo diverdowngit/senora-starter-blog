@@ -5,7 +5,7 @@ import '../styles/layout.module.css'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Img from '../images/heroimage.jpg'
-import Hero from '../components/Hero'
+import Hero from '../components/hero'
 import Ewv from "../pages/Ewv"
 const IndexPage = () => {
   return (
