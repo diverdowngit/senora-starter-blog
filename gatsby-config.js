@@ -4,14 +4,17 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "SV Sea Senora",
+    description: "WebPage for SV Sea Senora. Sailing,Travel,YouTube And Blog Site.A Must To Check Out.",
+    author: `Fred`,
+   
   },
   plugins: [
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-plugin-image",
+    `gatsby-plugin-playground`,
     {
       resolve: "gatsby-source-contentful",
       options: {
@@ -19,6 +22,20 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
         host: process.env.CONTENTFUL_HOST
       },
+      
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: `images`,
+      },
+    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+    //   },
+    // },
   ],
 };
