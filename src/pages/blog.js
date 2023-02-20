@@ -6,14 +6,14 @@ import Seo from '../components/seo'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import ArticlePreview from '../components/article-preview'
-import Img from '../images/summer-computer.jpg'
+import Image from '../images/summer-computer.jpg'
 class BlogIndex extends React.Component {
   render() {
     const posts = get(this, 'props.data.allContentfulBlogPost.nodes')
 
     return (
       <Layout location={this.props.location}>
-        <Header img={Img} centerText="Enjoy Your Reading " location="WorldWide."font-family=" 'Luminari', sans-serif;"/> 
+        <Header img={Image} centerText="Enjoy Your Reading " location="WorldWide."font-family=" 'Luminari', sans-serif;"/> 
         <Seo title="Blog" />
         <Hero title="Blog" />
         <ArticlePreview posts={posts} />

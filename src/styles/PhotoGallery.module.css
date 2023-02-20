@@ -1,10 +1,29 @@
- .container {
+/* .container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+img{
+  width: 300px;
+  height: 300px;
+} */
+
+
+
+
+
+
+.container {
   padding: 12rem 1.6rem;
-  /* background-color: rgb(88, 179, 254); */
+  background-color: rgb(88, 179, 254);
 }
 
 .wrapper {
- 
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,8 +38,8 @@
 margin-bottom: 30px;
 }
 .galleryimage {
-  /* grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: (8, 5vw); */
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: (8, 5vw); 
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -41,17 +60,17 @@ margin-bottom: 30px;
   width: 37rem;
   overflow: hidden;
   display: flex;
-  
+  color: white;
   position: relative;
-  /* background-color: white; */
+  background-color: white;
 }
 
 .caption {
   
    position: absolute;
-   top: 30%;
-   left: 15%;
-   color:black;
+   top: 50%;
+   left: 35%;
+   color:white;
   opacity: 0.0;
   transition: transform 0.3s ease, opacity 0.3s ease; 
   font-size: 2rem;
@@ -94,14 +113,13 @@ margin-bottom: 30px;
 .opacitylow {
   opacity: 099.5;
 }
-/*
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 1.5rem; 
 }
-
 .galleryimg {
   width: 100%;
   height: 100%;
@@ -119,7 +137,6 @@ margin-bottom: 30px;
 .imggrid1:hover img{
   opacity: 0.4;
 }
-
 .imggrid2{
   grid-column-start: 3;
   grid-column-end: 5;
@@ -128,11 +145,9 @@ margin-bottom: 30px;
   position: relative;
   background:black
 }
-
 .imggrid2:hover img{
   opacity: 0.4;
 }
-
 .imggrid3 {
   grid-column-start: 5;
   grid-column-end: 9;
@@ -141,11 +156,9 @@ margin-bottom: 30px;
   position: relative;
   background: black;
   }
-
   .imggrid3:hover img{
     opacity: 0.4;
   }
-
 .imggrid4 {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -154,11 +167,9 @@ margin-bottom: 30px;
 position: relative;
 background: black;
 }
-
 .imggrid4:hover img{
   opacity: 0.4;
 }
-
 .imggrid5 {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -167,11 +178,9 @@ background: black;
   position: relative;
   background: black;
 }
-
 .imggrid5:hover img{
   opacity: 0.4;
 }
-
 .imggrid6 {
   grid-column-start: 5;
   grid-column-end: 9;
@@ -180,11 +189,9 @@ background: black;
   position: relative;
   background: rgb(22, 22, 22);
   }
-
   .imggrid6:hover img{
     opacity: 0.4;
   }
-
 .gridText{
   position: absolute;
   top: 50%;
@@ -196,55 +203,41 @@ background: black;
   letter-spacing: 2px;
   text-align: center;
 }
-
 .imggrid1:hover .gridText{
   opacity: 4; 
   visibility: visible;
 }
-
-
 .imggrid2:hover .gridText{
   opacity: 4;
   visibility: visible;
 }
-
-
 .imggrid3:hover .gridText{
   opacity: 4;
   visibility: visible;
 }
-
-
 .imggrid4:hover .gridText{
   opacity: 4;
   visibility: visible;
 }
-
 .imggrid5:hover .gridText{
   opacity: 4;
   visibility: visible;
 }
-
-
 .imggrid6:hover .gridText{
   opacity: 4;
   visibility: visible;
 }
-
 .doodle img{
   margin:0;
   width: 100%;
   height: 300px;
 }
-
 @media (max-width: 600px){
-
   .gallery{
     display: flex;
-
     flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
   }
   
-}  */
+}   

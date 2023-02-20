@@ -11,7 +11,7 @@ import {container,bookingwrapper,wrapper,staywrapper,aboutCards,} from '../style
 
 
 
-  const Keepafloat = () => {
+const Keepafloat = () => {
 
   return (
     <Layout>
