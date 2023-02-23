@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
-import favicon from "../images/favicon.png"
+import favicon from '../images/favicon.png'
 const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -22,11 +22,9 @@ const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        lang:'en' 
       }}
-      link={[
-        { rel: "icon", type: "image/png", href: favicon}
-    ]}
+      link={[{ rel: 'icon', type: 'image/png', href: favicon }]}
       title={title}
       defaultTitle={defaultTitle}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}

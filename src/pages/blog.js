@@ -13,7 +13,8 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <Header img={Image} centerText="Enjoy Your Reading " location="WorldWide."font-family=" 'Luminari', sans-serif;"/> 
+        <Header img={Image}
+ centerText="Enjoy Your Reading " location="WorldWide."font-family="'Luminari', sans-serif"/> 
         <Seo title="Blog" />
         <Hero title="Blog" />
         <ArticlePreview posts={posts} />
@@ -37,7 +38,7 @@ export const pageQuery = graphql`
             layout: FULL_WIDTH
             placeholder: BLURRED
             width: 424
-            height: 212
+            height: 312
           )
         }
         description {

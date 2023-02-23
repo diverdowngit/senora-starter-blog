@@ -16,6 +16,7 @@
 .wrapper img{
   width: auto;
   height: 7rem;
+  background-color: #fff;
 }
 .bookingwrapper{ 
     display: flex;

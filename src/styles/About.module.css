@@ -1,11 +1,13 @@
-
+.header .centertext{
+  font-size: clamp(.5rem, 6vw, .5rem);     
+}
 
 
 .alignImages{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 40px calc((100% - (255px * 3)) / 2);
+  padding: 0 calc((100% - (255px * 3)) / 2);
   gap: 5em;
   width:100%; 
 
@@ -55,7 +57,7 @@
     margin-bottom: 20px;
 }
 .adminText {
-    font-size: 1.8rem;
+  font-size: clamp(1.2rem, 6vw, .5rem);   
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -63,7 +65,7 @@
   text-align: justify;
   font-family: 'luminari', sans-serif;
 }
-@media (max-width: 600px){
+/* @media (max-width: 600px){
   .alignImages{
     display: flex;
     flex-direction: column;
@@ -74,13 +76,13 @@
     max-height:100%;
     vertical-align: middle;
     display: flex;
-}
-.adminText {
+} */
+/* .adminText {
   font-size: 1.5rem;
 
-}
-.adminTravel {
+} */
+/* .adminTravel {
   font-size: 3rem;
   
 }
-}
+} */

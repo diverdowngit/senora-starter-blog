@@ -29,10 +29,7 @@ const Footer = () => {
 ><FaFacebookF /></a>
           </div>
           <div>Copyright © 2022 - {new Date().getFullYear()} SV Sea Senora</div>
-          {/* <div className={copyRights}>
-            SV Sea Senora © 2022.
-            <br /> All Rights Reserved
-          </div> */}
+         
         </div>
      
       </div>

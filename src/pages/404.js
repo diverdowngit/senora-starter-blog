@@ -1,8 +1,10 @@
+import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 import Layout from '../components/layout'
 
 const NotFoundPage = () => (
   <Layout>
+    <StaticImage src="../images/boatbroke.jpg" alt="broke boat"/>
     <div
       style={{
         display: 'flex',

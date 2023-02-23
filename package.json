@@ -1,12 +1,10 @@
 {
-  "name": "contentful-starter-gatsby-blog",
-  "description": "Contentful Gatsby Starter Blog",
+  "name": "svseasenora",
+  "description":"WebPage for SV Sea Senora. Sailing,Travel,YouTube And Blog Site.A Must To Check Out.",
   "private": true,
   "version": "0.0.1",
-  "author": "Contentful <opensource@contentful.com>",
-  "bugs": {
-    "url": "https://github.com/contentful/starter-gatsby-blog/issues"
-  },
+  "author": "fred",
+  
   "dependencies": {
     "@contentful/rich-text-plain-text-renderer": "^15.12.1",
     "gatsby": "^5.5.0",
@@ -35,25 +33,24 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
+  "homepage": "https://github.com/",
   "keywords": [
-    "gatsby",
-    "contentful",
-    "starter"
+    "sailing",
+    "sailing family",
+    "sail"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contentful/starter-gatsby-blog.git"
+    "url": ""
   },
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
-    "postinstall": "node ./bin/hello.js",
-    "setup": "node ./bin/setup.js",
+   
     "netlify:login": "netlify login",
     "netlify:deploy": "netlify deploy -d public -p",
     "gatsby-provision": "gatsby-provision-contentful --contentful-data-path='./contentful/export.json' --space-id=$CONTENTFUL_SPACE_ID --management-token=$CONTENTFUL_MANAGEMENT_TOKEN"

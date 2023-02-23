@@ -4,6 +4,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 .pageHero img {
@@ -12,21 +13,22 @@
   left: 0;
   height: 100%;
   width: 100%;
-  object-fit:cover ;
-
+ 
+overflow: hidden;
   z-index: -99999;
   filter: brightness(0.6);
+  
 }
 
 
 .centertext{
   position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:white;
     font-family: 'Luminari', sans-serif;
-                                                
+    font-size: clamp(1.5rem, 6vw, .2rem);                                            
     /* text-shadow: .1em .1em 0 rgb(22, 50, 65); */
     letter-spacing: .5rem;
     text-align: center;
@@ -36,11 +38,11 @@
 .headingtext{
   font-family: 'Luminari', sans-serif;
   font-weight: normal;
-  font-size: 3rem;
+   
 }
 .subheading{
   font-weight: normal;
-    font-size: 40px;
+  font-size: clamp(1rem, 6vw, .1rem);     
  }
 
  .locationtext{
@@ -49,14 +51,15 @@
   right: 16px;
   transform: translate(-50%, -50%);
     color:white;
-    font-size: 3rem;
+    font-size: clamp(1.1rem, 6vw, .2rem);  
+    
     visibility: hidden;
 }
 
 .heroWrapper:hover .locationtext{
   visibility: visible;
 }
-@media (max-width: 600px){
+ @media (max-width: 600px){
   .centertext{
     font-size: 2rem;
   }
@@ -66,4 +69,17 @@
   .subheading{
     font-size: 1rem;
   }
+  .locationtext{
+    font-size: 1rem;
+  }
+  .pageHero img {
+    height: 100%;
+    width: 100%;
+  }
 }
+@media only screen and (max-width: 480px) {
+  .pageHero img  {
+    width: 100%;
+  }
+} 
+
